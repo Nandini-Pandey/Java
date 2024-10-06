@@ -473,6 +473,12 @@ public class SinglyLinkedList implements Iterable<Integer> {
             return value;
         }
     }
+
+    public class Node {
+
+        public Node next;
+        public Object value;
+    }
 }
 
 /**
